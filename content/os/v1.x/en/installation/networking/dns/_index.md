@@ -12,6 +12,9 @@ If you wanted to configure the DNS through the cloud config file, you'll need to
 rancher:
   network:
     dns:
+      nameservers:
+        - 1.1.1.1
+        - 1.0.0.1
       search:
         - mydomain.com
         - example.com
